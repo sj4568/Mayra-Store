@@ -11,7 +11,7 @@ display:flex ;
 justify-content: center;
 align-items:center;
 
-background: url("/images/bg.jpeg");
+background: url("bg.jpeg");
 background-size:cover;
 background-position:fixed ;
 background-attachment:fixed;
@@ -514,7 +514,7 @@ top:-40px ;
 .window{
 position:absolute;
 width: 100%;
-background: url("/images/bg2.jpeg");
+background: url("bg2.jpeg");
 height: 300px;
 top:50px ;
 }
