@@ -1,0 +1,726 @@
+*{
+margin:0 ;
+padding:0 ;
+box-sizing:border-box;
+
+}
+
+body { 
+display:flex ;
+
+justify-content: center;
+align-items:center;
+
+background: url("/images/bg.jpeg");
+background-size:cover;
+background-position:fixed ;
+background-attachment:fixed;
+scroll-bihavior:smooth;
+overflow-y: scroll;
+
+}
+.cards h1{
+position: absolute;
+color:red ;
+bottom:0 ;
+left:44%;
+}
+.cards2 h1{
+position: absolute;
+color:red ;
+bottom:0 ;
+left:44%;
+}
+.cards .shoe2 img{
+top: -50px;
+transform: rotate(0deg);
+
+}
+.cards .shoe3 img{
+top: -50px;
+transform: rotate(0deg);
+}
+.navbar{
+position:fixed;
+right:0;
+position: ;
+z-index: 109;
+}
+
+ul{
+
+list-style:none ;
+}
+.cards .shoe:hover h3{
+
+margin-left:100px ;
+tr
+}
+.cards .shoe h3{
+margin-left: 30px;
+color: red;
+
+}
+
+.cards2 .shirt h3{
+margin-left: 30px;
+color: red;
+
+}
+
+.cards a{
+position: absolute;
+bottom: -70px;
+left:67px;
+top: ;
+padding:10px 20px ;
+background:#fff;
+border-radius:30px;
+text-decoration:none ;
+}
+.cards2 a{
+position: absolute;
+bottom: -70px;
+left:67px;
+top: ;
+padding:10px 20px ;
+background:#fff;
+border-radius:30px;
+text-decoration:none ;
+}
+.cards a:hover{
+text-decoration: none;
+background:green ;
+
+}
+.cards img{
+position: absolute;
+top:-20px;
+left:0;
+transform:rotate(24deg);
+pointer-events :none;
+
+}
+.cards2 img{
+position: absolute;
+top:-20px;
+left:5%;
+height:170px ;
+transform:rotate(deg);
+pointer-events :none;
+}
+.cards .shoe:hover h3{
+transform:translateX(20px) rotate(90deg);
+color: blue;
+transition:.5s;
+
+
+}
+.cards2 .shirt:hover h3{
+transform:translate(50px,-50px) rotate(90deg);
+color: blue;
+transition:.5s;
+
+
+}
+.cards .shoe:hover{
+
+background:red;
+
+
+}
+.cards2 .shirt:hover{
+
+background:red;
+
+
+}
+.cards .shoe3:hover img{
+transform: rotate(-20deg);
+transition:.6s;
+
+
+}
+.cards .shoe1:hover img{
+transform: rotate(-20deg);
+transition:.6s;
+
+
+}
+.cards .shoe2:hover img{
+transform: rotate(-20deg);
+transition:.6s;
+
+
+}
+.cards .shoe:hover a{
+bottom: 28px;
+
+transition :.8s;
+
+}
+.cards2 .shirt:hover a{
+bottom: 28px;
+
+transition :.8s;
+
+}
+.cards .shoe1{
+position: absolute;
+height:260px ;
+width: 27%;
+left:20px;
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+overflow: hidden;
+transition:0.2s;
+}
+.cards2 .shirt1{
+position: absolute;
+height:260px ;
+width: 27%;
+left:20px;
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+overflow: hidden;
+transition:0.2s;
+}
+.cards .shoe2{
+left:37%;
+
+overflow:hidden ;
+position: absolute;
+height:260px ;
+width:27% ;
+
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+
+}
+.cards2 .shirt2{
+left:37%;
+
+overflow:hidden ;
+position: absolute;
+height:260px ;
+width:27% ;
+
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+
+}
+
+.cards .shoe3{
+overflow: hidden;
+
+
+position: absolute;
+height:260px ;
+width: 27%;
+
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+right:20px;
+
+
+
+}
+.cards2 .shirt3{
+overflow: hidden;
+
+
+position: absolute;
+height:260px ;
+width: 27%;
+
+top: 20px;
+background:pink ;
+border-radius:30px;
+box-shadow:0 0 20px gray;
+right:20px;
+
+
+
+}
+
+.cards{
+position: absolute;
+width: 100%;
+height:400px ;
+background:#fff ;
+top: 750px;
+
+
+}
+
+.cards2{
+position: absolute;
+width: 100%;
+height:400px ;
+background:#fff ;
+top: 1200px;
+
+
+}
+.about a:hover{
+background: red;
+width:150px ;
+text-decoration:none ;
+transition:.3s;
+}
+.about a{
+position: relative;
+width:100px ;
+padding: 10px;
+top:60px ;
+background:pink;
+margin-top:10px ;
+border-radius:30px;
+color: black;
+font-size: 20px;
+left:100px;
+}
+ul li{
+
+display:inline-block ;
+margin-left: 25px;
+
+
+}
+.window a:hover{
+text-decoration: none;
+background: blue;
+color:white ;
+}
+#active{
+box-shadow:inset 5px 5px 10px rgba(0,0,0,0.3), inset -5px -5px 10px rgba(0,0,0,0.3),
+ 5px 5px 10px rgba(0,0,0,0.3), -5px -5px 10px rgba(0,0,0,0.3);
+padding:10px ;
+color: blue;
+border-radius:30px;
+background:#fff ;
+
+
+
+
+}
+ul li a:hover{
+box-shadow:inset 5px 5px 10px rgba(0,0,0,0.3), inset -5px -5px 10px rgba(0,0,0,0.3),
+ 5px 5px 10px rgba(0,0,0,0.3), -5px -5px 10px rgba(0,0,0,0.3);
+padding:10px ;
+color: blue;
+border-radius:30px;
+background:#fff ;
+}
+ul li a:hover{
+text-decoration: none;
+
+
+}
+#model1{
+position: absolute;
+bottom:0;
+z-index:;
+right:0;
+height: 300px;
+}
+.about{
+
+display: flex;
+justify-content :center ;
+flex-direction: column;
+}
+.about h1{
+display: flex;
+justify-content :center ;
+flex-direction: column;
+position: absolute;
+top:0 ;
+color: gold;
+}
+.about h3{
+color:red ;
+position: absolute;
+top: 100px;
+}
+.object{
+position: absolute;
+top:30px ;
+
+
+
+}
+.object a{
+padding: 10px;
+background:white ;
+margin-left: 5px;
+border-radius:20px;
+}
+.window {
+display: flex;
+justify-content : center;
+
+}
+.myself{
+position: absolute;
+top:50px ;
+left:0;
+}
+#model{
+position:absolute ;
+right:0;
+top:0px ;
+height:300px ;
+}
+.pic{
+
+position:absolute;
+left:20px;
+top:24px ;
+
+}
+.pic img{
+z-index: 2;
+width:300px ;
+lef:60px;
+
+clip-path:circle(90%);
+-webkit-clip-path:circle(50% at 50% 40%);
+}
+.dtl{
+position:relative ;
+display:block ;
+left:399px;
+top:200px ;
+
+}
+.cards .shoe h2{
+
+margin-top: 150px;
+
+margin-left:55px ;
+}
+.cards2 .shirt h2{
+
+margin-top: 150px;
+
+margin-left:55px ;
+}
+.dtl h1,h2{
+position: ;
+color:#fff;
+
+
+}
+
+
+@keyframes fade{
+
+100%{
+
+background-position:2000px 0 ;
+
+
+
+}
+
+
+
+
+}
+.dtl p{
+
+color: #fff;
+font-size:30px;
+
+}
+.dtl a{
+text-decoration:none ;
+color:red ;
+position: relative;
+margin-left:100px ;
+padding:20px 10px ;
+border: 2px solid #fff;
+z-index: 1;
+top:50px ;
+border-radius:30px;
+}
+.dtl a:before{
+content: '';
+position: absolute;
+width:0 ;
+height:100% ;
+top: 0;
+left:0;
+background: #fff;
+z-index:-1 ;
+border-radius:30px;
+}
+.dtl a:hover:before{
+width:100% ;
+
+transition:0.3s;
+
+}
+#img{
+
+width:50px ;
+height:50px ;
+
+
+}
+.contect{
+position: relative;
+top: 100px;
+left:90px;
+
+}
+
+.contect h3{
+position:relative ;
+color:#fff;
+font-size: 30px;
+leftleft:0;
+}
+.contect a{
+border:none ;
+margin:20px ;
+margin-top: -40px;
+
+}
+.about{
+position: absolute;
+width: 100%;
+height:300px ;
+background:#fff ;
+top: 400px;
+}
+#logo{
+width:200px ;
+position:absolute ;
+left:-340px;
+top:-40px ;
+}
+.window{
+position:absolute;
+width: 100%;
+background: url("/images/bg2.jpeg");
+height: 300px;
+top:50px ;
+}
+.window h1{
+
+color:gold
+
+}
+footer{
+width:100% ;
+position: absolute;
+top: 1640px;
+height: 300px;
+background:rgba(0,0,0,0.7) ;
+display: flex;
+justify-content : center;
+}
+footer h3{
+position: absolute ;
+font-size: 10px;
+top: 50px;
+color: #fff;
+}
+footer h1{
+color:#fff ;
+
+}
+footer .pp{
+position: absolute;
+color:#fff ;
+margin:0;
+top:100px ;
+height: 100px;
+width: 200px;
+left:10px;
+}
+.pp p{
+
+
+margin-top: -10px;
+
+}
+
+footer .con{
+position:absolute ;
+top: 150px;
+right:10%;
+
+}
+footer .con img{
+
+width: 50px;
+
+}
+@media screen and (max-width:700px){
+
+body { 
+
+
+
+
+}
+.cards .shoe:hover h3{
+transform:translateX(96px) translateY(-50px);
+color: blue;
+transition:.5s;
+font-weight:7000 ;
+
+}
+.cards2 .shirt:hover h3{
+transform:translateX(156px) translateY(-50px);
+color: blue;
+transition:.5s;
+font-weight:7000 ;
+
+}
+.cards {
+display: flex;
+justify-content : center;
+align-items:center;
+flex-direction: column;
+height:900px ;
+}
+.cards2{
+display: flex;
+top:1700px ;
+justify-content : center;
+align-items:center;
+flex-direction: column;
+height:900px ;
+}
+.cards .shoe,.shoe1{
+float: left;
+display: block;
+left:0;
+width:100% ;
+}
+.cards2 .shirt,.shirt1{
+float: left;
+display: block;
+left:0;
+width:100% ;
+}
+.cards2 .shirt1{
+z-index:100 ;
+top: 580px;
+}
+.cards .shoe2{
+top:300px ;
+float: left;
+left:0;
+}
+.cards2 .shirt2{
+top:300px ;
+float: left;
+left:0;
+}
+.cards .shoe3{
+top: 580px;
+
+
+}
+.cards2.shirt3{
+top: 580px;
+
+
+}
+.navbar{
+position:relative;
+width:50px;
+height: 50px;
+background:red ;
+margin-left:-245px;
+z-index:200 ;
+}
+
+.navbar ul{
+position:fixed;
+top:50px ;
+width: 100%;
+
+margin-top:-50px ;
+background: white;
+left:0;
+z-index:-2 ;
+overflow: hidden;
+transition :1s;
+height:50px ;
+}
+.navbar ul:after{
+content:'';
+position:absolute  ;
+height: 10px;
+width:50px;
+top: 10px;
+left:0;
+background: red;
+pointer-events: none;
+}
+.navbar ul:before{
+content:'';
+position:absolute  ;
+height: 10px;
+width:50px;
+top: 25px;
+left:0;
+pointer-events:none ;
+background: red;
+}
+.navbar ul:hover:before{
+transform:rotate(60deg);
+top: 15px;
+}
+.navbar ul:hover:after{
+transform:rotate(-60deg);
+top: 15px;
+}
+.navbar ul:hover{
+height:450px ;
+transition:1s;
+
+
+}
+.navbar ul:after:hover .navbar ul{
+height: 50px;
+}
+.navbar ul li{
+margin-top: 30px;
+display: block;
+
+line-height:5;
+}
+#logo{
+width:200px ;
+position:absolute ;
+left:;
+top:-40px
+z-index: 565;
+}
+footer{
+top:2600px ;
+
+
+
+}
+footer .con{
+right:5%;
+
+}
